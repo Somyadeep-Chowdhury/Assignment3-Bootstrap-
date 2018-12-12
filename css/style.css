@@ -6,13 +6,19 @@ body,html{
 }
 
 #cover{
-    background-image: url("../img/lalbagh.jpg");
+    background: url("../img/coorg.jpg") center center no-repeat;
     height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.textmy{
+    color: white;
 }
 
 .carousel{
@@ -29,6 +35,19 @@ body,html{
 }
 .card-deck{
     padding: 1rem;
+}
+
+iframe{
+    width: 100%;
+    border:none;
+    height: 20vmax;
+}
+
+@media(orientation: portrait)
+{
+    iframe{
+        height: 35vmax;
+    }
 }
 
 blockquote{
@@ -60,3 +79,6 @@ footer {
     background: #ddd;
     background-color: white;
   } 
+footer a{
+    padding: 0.1rem;
+}

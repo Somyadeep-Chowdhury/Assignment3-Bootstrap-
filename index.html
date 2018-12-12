@@ -56,16 +56,16 @@
 
     <header id="cover">
         <div id="cover-caption">
-            <div class="container">
-                <!--<div class="col-sm-10 col-sm-offset-0">-->
-                <h1>
-                    Welcome to Hippie Trippy Tourism
-                </h1>
-                <p>Let’s Be Adventurers.
-                    <a href="#card" class="btn btn-secondary-outline btn-ls" role="button">&darr;</a>
-                </p>
+            <div class="container textmy">
+                <div class="col-sm-10 col-sm-offset-0">
+                    <h1>
+                        Welcome to Hippie Trippy Tourism
+                    </h1>
+                    <p>Let’s Be Adventurers.
+                        <a href="#card" class="btn btn-secondary-outline btn-ls" role="button">&darr;</a>
+                    </p>
+                </div>
             </div>
-        </div>
         </div>
     </header>
 
@@ -78,11 +78,10 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/coorg.jpg" alt="First slide">
+                    <img src="img/lalbagh.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <strong>
-                            <h3>Coorg</h3>
-                            <p>Elevation: 900m</p>
+                            <h3>Lalbagh</h3>
                         </strong>
                     </div>
                 </div>
@@ -184,7 +183,8 @@
             <h1 class="display-4">Excited?</h1>
             <p class="lead">Register yourself</p>
             <hr class="my-4">
-            <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Register Now</a>
+            <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Register
+                Now</a>
         </div>
     </section>
 
@@ -220,6 +220,24 @@
 
     <footer id="C3">
         <h2>Reach us at: (+91) 9674907794</h2>
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" href="#Home" role="tab" data-toggle="tab">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">Explore</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#references" role="tab" data-toggle="tab">References</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="profile">...</div>
+            <div role="tabpanel" class="tab-pane fade" id="buzz">bbb</div>
+            <div role="tabpanel" class="tab-pane fade" id="references">ccc</div>
+        </div>
         <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-1x"></i></a>
         <a href="https://www.instagram.com"><i class="fab fa-instagram fa-1x"></i></a>
         <a href="https://www.twitter.com"><i class="fab fa-twitter fa-1x"></i></a>
@@ -228,27 +246,28 @@
 
     <!-- Button trigger modal -->
 
-      
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Closed, Try later.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Ok</button>
+                </div>
             </div>
-            <div class="modal-body">
-              <p>Closed, Try later.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Ok</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
