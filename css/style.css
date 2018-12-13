@@ -76,8 +76,8 @@ main li{
 footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
-    background-color: white;
+    color: white;
+    background-color: #343a40!important;
   } 
 footer a{
     padding: 0.1rem;
